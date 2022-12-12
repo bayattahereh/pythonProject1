@@ -19,6 +19,7 @@ movies_df['title']
 movies_df['genres'] = movies_df.genres.str.split('|')
 movies_df.head()
 
+
 # Copying the movie dataframe into a new one since we won't need to use the genre information in our first case.
 moviesWithGenres_df = movies_df.copy()
 
